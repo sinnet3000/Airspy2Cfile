@@ -81,5 +81,5 @@ if __name__ == '__main__':
 try:
     tb.run()
 
-except [[KeyboardInterrupt]]:
+except KeyboardInterrupt:
     pass
