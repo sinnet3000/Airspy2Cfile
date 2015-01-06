@@ -15,9 +15,9 @@ Currently INT16_IQ is supported.
 ## Usage: Airspy2Cfile.py [options]
 
 ### Options:
-  -h, --help         show this help message and exit
-  -r FILENAME_READ   Filename of Airspy_RX IQ sample to process
-  -w FILENAME_WRITE  Filename of GnuRadio CFile to create
-  -t SAMPLE_TYPE     Set sample type/n 0=FLOAT32_IQ, 1=FLOAT32_REAL,
-                     2=INT16_IQ(default), 3=INT16_REAL, 4=U16_REAL
+  -h, --help         show this help message and exit<br>
+  -r FILENAME_READ   Filename of Airspy_RX IQ sample to process<br>
+  -w FILENAME_WRITE  Filename of GnuRadio CFile to create<br>
+  -t SAMPLE_TYPE     Set sample type/n 0=FLOAT32_IQ, 1=FLOAT32_REAL,<br>
+                     2=INT16_IQ(default), 3=INT16_REAL, 4=U16_REAL<br>
 
