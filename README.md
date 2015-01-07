@@ -5,12 +5,11 @@ Airspy2CFile is a command line tool to convert Airspy_RX capture files to GnuRad
 This is very useful for example when you are capturing IQ files using an embedded machine like an Odroid with Airspy-RX tool and you want to
 process the files using GnuRadio.
 
-The tool aim is to support the 5 Airspy sample formats:
+The tool aim is to support the 4 Airspy sample formats: (FLOAT32_IQ option generates a GnuRadio Cfile in Airspy_RX)
 
-0=FLOAT32_IQ, 1=FLOAT32_REAL, 2=INT16_IQ(default), 3=INT16_REAL, 4=U16_REAL
+1=FLOAT32_REAL, 2=INT16_IQ(default), 3=INT16_REAL, 4=U16_REAL
 
 Currently INT16_IQ is supported.
-
 
 ## Usage: Airspy2Cfile.py [options]
 
